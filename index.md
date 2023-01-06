@@ -1,10 +1,10 @@
 ## Basic Information and Route
-We will be taking a road trip up to San Francisco from Monday through Thursday
+We will be taking a road trip up to Columbus, Ohio. The trip will take 4 days.
 
 ### Route
 ![](images/route.jpg)
 
-We plan on taking the 5 freeway for most of the way up for San Francisco. The trip will take approximately 8 hours, but will vary depending on traffic and how long we stop for
+We plan on going through the midwest, making many stops and exploring new territory, and having a lot of fun
 
 ## Schedule
 
