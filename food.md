@@ -1,3 +1,5 @@
+![](images/wafflehouse.jpeg)
+
 ## Planned Meals
 > On the Road, we will have three meals a day and will be filled with nutrients and also some desserts. Each meal will have to be eaten by a certain time or they will be nonaviable anymore. 
 
