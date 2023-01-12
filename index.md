@@ -27,14 +27,12 @@ We plan on going through the midwest, making many stops and exploring new territ
     <p><label>
         Password:
         <input type="password" name="password" id="password" required>
-        Verify Password:
-        <input type="password" name="passwordV" id="passwordV" required>
     </label></p>
     <p><label>
         Phone:
         <input type="tel" name="phone_num" id="phone_num"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="999-999-9999">
+            placeholder="858-111-0938">
     </label></p>
     <p><label>
         Email:
