@@ -31,7 +31,7 @@ As we drive through the rockies, if we have the time and energy we could spend s
 
 ![](images/Aliens.jpg)
 
-Nobody knows what goes on in Nebraska. I guess we'll find out!
+Nobody knows what goes on in Nebraska. weird stuff..
 
 ## Ohio State Basketball Game
 
