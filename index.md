@@ -18,7 +18,7 @@ We plan on going through the midwest, making many stops and exploring new territ
 | Wednesday | We will make our way out of the rockies and into the midwest as we traverse through Nebraska and Iowa, enjoying the culture. We will stop in Omaha or Des Moines, depending on circumstances such as time and our current mood. |
 | Thursday | We will continue the homestretch into Columbus enjoying the culture of beloved Ohio. Possible activities include attending a basketball game at The Ohio State University, gun range, doing other random fun stuff. We will then ditch the RV and sneak on a plane back home. |
 
-/*
+
 <form action="create_User()">
     <p><label>
         Name:
@@ -43,4 +43,4 @@ We plan on going through the midwest, making many stops and exploring new territ
         <button>Create</button>
     </p>
 </form>
-*/
+
