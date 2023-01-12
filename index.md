@@ -36,7 +36,7 @@ We plan on going through the midwest, making many stops and exploring new territ
     </label></p>
     <p><label>
         Email:
-        <input type="email" name="email" id="email"
+        <<input type="email">
             Placeholder= youremail@gmail.com>
     </label></p>
     <p>
