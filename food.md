@@ -29,3 +29,14 @@ Your on Your own!!!
 > We are getting KFC for lunch!!!!!!
 ### Thursday Dinner
 > This is the last nght, we are going buffet style, make sure to clean up after yourself, Person with most food eaten wins 20$, Good luck.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Input Button</h2>
+
+<input type="button" onclick="alert('closest waffle house is 5 Hours and 4 Minutes or 352 Miles away')" value="Find closest Waffle house">
+
+</body>
+</html>
