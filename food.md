@@ -31,7 +31,6 @@ Your on Your own!!!
 > This is the last nght, we are going buffet style, make sure to clean up after yourself, Person with most food eaten wins 20$, Good luck.
 
 
-<!DOCTYPE html>
 <html>
 <body>
 
