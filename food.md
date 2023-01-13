@@ -40,3 +40,15 @@ Your on Your own!!!
 
 </body>
 </html>
+
+
+<html>
+<body>
+
+<h2></h2>
+
+<input type="button" onclick="alert('closest KFC is 13 Minutes or 5.3 Miles away')" value="KFC">
+
+</body>
+</html>
+
