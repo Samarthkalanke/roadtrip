@@ -34,7 +34,7 @@ Your on Your own!!!
 <html>
 <body>
 
-<h2>Find Closest Food Choices </h2>
+<h2>Find Closest Food Choices from the trip</h2>
 
 <input type="button" onclick="alert('closest waffle house is 5 Hours and 4 Minutes or 352 Miles away')" value="Waffle house">
 
