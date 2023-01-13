@@ -57,7 +57,7 @@ Your on Your own!!!
 
 <h2></h2>
 
-<input type="button" onclick="alert('closest Chick-Fil-A is 4 Minutes or 0.6 Miles away')" value="KFC">
+<input type="button" onclick="alert('closest Chick-Fil-A is 4 Minutes or 0.6 Miles away')" value="Chick-Fil-A">
 
 </body>
 </html>
