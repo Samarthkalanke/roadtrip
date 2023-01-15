@@ -44,3 +44,17 @@ We plan on going through the midwest, making many stops and exploring new territ
     </p>
 </form>
 
+# Click here to Generate Password
+
+<import random>
+
+Lower = "abcdefghijklmnopqrstuvwxyz"
+Upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+numbers = "0123456789"
+symbols = " []{}()*;/,._-"
+
+all = lower + upper + numbers +symbols
+Length = 16
+password = "".join(random.sample(all,length))
+
+print(password)
