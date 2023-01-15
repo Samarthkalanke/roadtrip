@@ -46,6 +46,7 @@ We plan on going through the midwest, making many stops and exploring new territ
 
 # Click here to Generate Password
 
+---
 import random
 
 password_length = 12
@@ -58,3 +59,4 @@ for index in range(password_length):
     password = password + random.choice(characters)
 
 print("Password generated: {}".format(password))
+---
