@@ -46,15 +46,15 @@ We plan on going through the midwest, making many stops and exploring new territ
 
 # Click here to Generate Password
 
-<import random>
+import random
 
-Lower = "abcdefghijklmnopqrstuvwxyz"
-Upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-numbers = "0123456789"
-symbols = " []{}()*;/,._-"
+password_length = 12
 
-all = lower + upper + numbers +symbols
-Length = 16
-password = "".join(random.sample(all,length))
+characters = "abcde12345"
 
-print(password)
+password = ""   
+
+for index in range(password_length):
+    password = password + random.choice(characters)
+
+print("Password generated: {}".format(password))
