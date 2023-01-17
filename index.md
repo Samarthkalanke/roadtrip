@@ -45,18 +45,18 @@ We plan on going through the midwest, making many stops and exploring new territ
 </form>
 
 # Click here to Generate Password
+<script>
+    function generatePassword() {
+        const password_length = 12;
+        const characters = ["a", "b", "c", "d", "e", "1", "2", "3", "4", "5"];
+        let password = "";
 
----
-import random
+        for (let index = 0; index < password_length; index++) {
+        password += characters[Math.floor(Math.random() * characters.length)];
+        }
+        document.getElementById("element").innerHTML = password
+    }
+</script>
 
-password_length = 12
-
-characters = "abcde12345"
-
-password = ""   
-
-for index in range(password_length):
-    password = password + random.choice(characters)
-
-print("Password generated: {}".format(password))
----
+<button onclick="generatePassword()">Generate Password</button>
+<p id="element">
