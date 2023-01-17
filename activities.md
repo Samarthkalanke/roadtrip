@@ -42,7 +42,7 @@ As we drive through the rockies, if we have the time and energy we could spend s
 
 ![](images/Aliens.jpg)
 
-Nobody knows what goes on in Nebraska. weird stuff..
+While we are in Nebraska we can drive through and experience the great plains in all its glory.
 <input type="button" onclick="alert('The Nebraska emptiness is a 20 hours and 28 minute drive or 1,375 miles.')" value="Distance to activity 3">
 
 ## Ohio State Basketball Game
