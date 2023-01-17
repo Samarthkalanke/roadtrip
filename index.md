@@ -1,3 +1,26 @@
+<body>
+    <script src="{{ '/assets/js/login.js' | relative_url }}"></script>
+    <script>
+        setInterval(()=>{
+            var timer = new Date();
+            var h = timer.getHours();
+            var m = timer.getMinutes();
+            var s = timer.getSeconds();
+            document.getElementById('jsClock').innerHTML = `${h} : ${m} : ${s}`;
+        },1000);
+    </script>
+</body>
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
+1:43
+<div class="project-tagline"><label id="jsClock"></label></div>
+
 # Basic Information and Route
 
 ![](images/columbus.jpg)
