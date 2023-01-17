@@ -51,3 +51,22 @@ While we are in Nebraska we can drive through and experience the great plains in
 
 Once we arrive in Columbus, we may attend a basketball game at The Ohio State University. Go buckeyes!
 <input type="button" onclick="alert('The Ohio State University is a 33 hour drive or 2,243 miles.')" value="Distance to activity 4">
+
+
+<html>
+<body>
+
+<h1>Select and submit the time of the state your in. </h1>
+
+
+
+<form action="/action_page.php">
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
+
