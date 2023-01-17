@@ -14,7 +14,7 @@ h1{
 }
  #clockdiv{
     font-family: sans-serif;
-    color: #fff;
+    color: #100f14;
     display: inline-block;
     font-weight: 100;
     text-align: center;
