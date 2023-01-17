@@ -37,7 +37,7 @@ smalltext{
 </style>
 </head>
 <body>
-<h1>Countdown Clock</h1>
+<h1>Countdown to Road Trip!!!</h1>
 <div id="clockdiv">
   <div>
     <span class="days" id="day"></span>
