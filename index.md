@@ -10,15 +10,6 @@
         },1000);
     </script>
 </body>
-white_check_mark
-eyes
-raised_hands
-
-
-
-
-
-1:43
 <div class="project-tagline"><label id="jsClock"></label></div>
 
 # Basic Information and Route
