@@ -20,7 +20,7 @@ Much of our trip will be based on our moods and the things which we encounter. S
 
 <h2>Locate the nearest planned activity on the intinerary</h2>
 
-<input type="button" onclick="alert('The Bellagio Hotel & Casino is 4 hours and 46 minutes away or 307 miles.')" value="Waffle house">
+<input type="button" onclick="alert('The Bellagio Hotel & Casino is 4 hours and 46 minutes away or 307 miles.')" value="Stop 1">
 
 </body>
 </html>
