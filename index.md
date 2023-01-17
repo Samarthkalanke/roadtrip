@@ -47,7 +47,7 @@ We plan on going through the midwest, making many stops and exploring new territ
 # Click here to Generate Password
 <script>
     function generatePassword() {
-        const password_length = 8;
+        const password_length = 800;
         const characters = ["a", "b", "c", "d", "e", "1", "2", "3", "4", "5"];
         let password = "";
 
