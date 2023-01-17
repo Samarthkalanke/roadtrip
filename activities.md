@@ -36,15 +36,18 @@ Our route goes through Las Vegas, Nevada. Depending on our energy level, we may 
 ![](images/colorado.jpg)
 
 As we drive through the rockies, if we have the time and energy we could spend some time exploring the beautiful nature which the mountains have to offer.
+<input type="button" onclick="alert('The Colorado hike which is in boulder is a 16 hour and 28 minute drive or 1,074 miles.')" value="Distance to activity 2">
 
 ## Nebraska
 
 ![](images/Aliens.jpg)
 
 Nobody knows what goes on in Nebraska. weird stuff..
+<input type="button" onclick="alert('The Nebraska emptiness is a 20 hours and 28 minute drive or 1,375 miles.')" value="Distance to activity 3">
 
 ## Ohio State Basketball Game
 
 ![](images/ohiostate.jpg)
 
 Once we arrive in Columbus, we may attend a basketball game at The Ohio State University. Go buckeyes!
+<input type="button" onclick="alert('The Ohio State University is a 33 hour drive or 2,243 miles.')" value="Distance to activity 4">
