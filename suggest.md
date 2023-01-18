@@ -5,9 +5,6 @@ Description: <input type="text" name="description" id="description">
 
 <script>
     function display() {
-        document.getElementById("names").value;
-        document.getElementById("activity").value;
-        document.getElementById("description").value;
         document.getElementById("nameDisplay").innerHTML = names.value;
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("descDisplay").innerHTML = description.value;
