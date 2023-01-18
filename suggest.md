@@ -1,13 +1,16 @@
 # Suggest an Activity
-Name: <input type="text" name="name" id="name">
+Name: <input type="text" name="name" id="names">
 Activity: <input type="text" name="activity" id="activity">
 Description: <input type="text" name="description" id="description">
 
 <script>
     function display() {
-        document.getElementById("nameDisplay").innerHTML = name
-        document.getElementById("activityDisplay").innerHTML = activity
-        document.getElementById("descDisplay").innerHTML = description
+        document.getElementById("names").value;
+        document.getElementById("activity").value;
+        document.getElementById("description").value;
+        document.getElementById("nameDisplay").innerHTML = names.value;
+        document.getElementById("activityDisplay").innerHTML = activity.value;
+        document.getElementById("descDisplay").innerHTML = description.value;
     }
 </script>
 
@@ -22,4 +25,3 @@ Description: <input type="text" name="description" id="description">
         <td id="nameDisplay"></td>
         <td id="activityDisplay"></td>
         <td id="descDisplay"></td>
-</table>
