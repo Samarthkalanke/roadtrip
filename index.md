@@ -61,7 +61,7 @@ smalltext{
   
 <script>
   
-var deadline = new Date("feb 14, 2023 18:59:45").getTime();
+var deadline = new Date("feb 16, 2023 19:00:00").getTime();
   
 var x = setInterval(function() {
   
