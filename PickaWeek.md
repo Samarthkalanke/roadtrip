@@ -1,14 +1,37 @@
 <html>
+
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 3px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+      background-color: #E6E6E6;
+    }
+  </style>
+</head>
+
 <body>
 
-<h1>Come Join us on our trip, select a week</h1>
 
-<form action="/action_page.php">
-  <label for="week">Select a week:</label>
-  <input type="week" id="week" name="week">
-  <input type="submit" value="Submit">
-</form>
+  <div id="calendar"></div>
+
+  <script>
+    function createCalendar(elem, year, month) {
+      // ...your code that generates the calndar in elem...
+    }
+
+    createCalendar(calendar, 2012, 9);
+  </script>
 
 </body>
 </html>
-
