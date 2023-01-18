@@ -9,10 +9,11 @@ Description: <input type="text" name="description" id="description">
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("descDisplay").innerHTML = description.value;
     }
+
 </script>
 
 <button onclick="display()">Enter</button>
-<table>
+<table id="table">
     <tr>
         <th>Name</th>
         <th>Activity</th>
