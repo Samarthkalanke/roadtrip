@@ -1,41 +1,146 @@
-## Location
-> Browse [Coram Ranch Site](https://www.coramranch.com/) to learn about reunion location and surrounding community. 
-- [Video Tour](https://youtu.be/kX24Zv1CJZA)
-- [Google Maps 14251 Coram Rd, Shasta Lake, California 96089](https://www.google.com/maps/place/14251+Coram+Rd,+Shasta+Lake,+CA+96019/@40.707988,-122.44701,16z/data=!4m5!3m4!1s0x54d28be161c895ef:0xca3b8805b9b6a5ec!8m2!3d40.7079882!4d-122.4470104?hl=en)
-- ***NO PETS***
+<html>
+<head>
+<style>
+body{
+    text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color: #100f14;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+</style>
+</head>
+<body>
+<h1>Countdown to Road Trip!!!</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days" id="day"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours" id="hour"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes" id="minute"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds" id="second"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+  
+<p id="demo"></p>
+  
+<script>
+  
+var deadline = new Date("feb 16, 2023 19:00:00").getTime();
+  
+var x = setInterval(function() {
+  
+var now = new Date().getTime();
+var t = deadline - now;
+var days = Math.floor(t / (1000 * 60 * 60 * 24));
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((t % (1000 * 60)) / 1000);
+document.getElementById("day").innerHTML =days ;
+document.getElementById("hour").innerHTML =hours;
+document.getElementById("minute").innerHTML = minutes; 
+document.getElementById("second").innerHTML =seconds; 
+if (t < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "TIME UP";
+        document.getElementById("day").innerHTML ='0';
+        document.getElementById("hour").innerHTML ='0';
+        document.getElementById("minute").innerHTML ='0' ; 
+        document.getElementById("second").innerHTML = '0'; }
+}, 1000);
+</script>
+</body>
+</html>
 
-## Schedule
 
-| Date | Day | Time | Event | Meet At | Coordinator |
-| --- | --- | --- | --- | --- | --- |
-| 6/26 | Monday | 3pm | Check in | Shasta Lakes | Frank and Judith |
-| --- | --- | 6pm | Dinner | Dining Room | Lisa |
-| --- | --- | 7pm | Leuck Greet | Dining Room | Frank and Judith |
-| 6/27 | Tuesday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Greet Games | Field and Court | Johnner, Lora, Shay|
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 2pm | Bike/Hike | Bike Rack | Johnner and Lora |
-| --- | --- | 6pm | Dinner hi| Dining Room | Sherri |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/28 | Wednesday | 7:30 | Zumba | Court | Kira |
-| --- | --- | 8:30am | Breakfast | Dining | Lisa |
-| --- | --- | 10am | Pool Olympics | Pool Area | Annalyce, Peyton |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Spelunking | [Cars, 32 minutes travel](http://lakeshastacaverns.clickforward.com/group-tours) | Johnner and Lora|
-| --- | --- | 6pm | Dinner | Dining Room | Angela |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/29 | Thursday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Field Olympics | Field | Jake, Taylor |
-| --- | --- | 12:30pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Boating | [Cars, 25 minutes travel](https://bridgebayhouseboats.com/houseboats/grand-sierra) | Jared |
-| --- | --- | 6pm | Dinner | Dining Room | Jared and Jeremiah |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/30 | Friday | 7:30 | Zumba | Court | Lisa |
-| --- | --- | 8:30am | Breakfast | Dining | Kira |
-| --- | --- | 10am | Family Relays | Field or Court | Johnner |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Explore the area | You pick | Self coordinated |
-| --- | --- | 6pm | Dinner | Dining Room | John |
-| --- | --- | 7pm | Family Night | Dining Room |John and Mel |
-| 7/1 | Saturday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Check Out | Travel Home | Your it |
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .cars {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .car {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+    <title>Car Rental Service</title>
+  </head>
+  <body>
+    <h1>Car Rental Service</h1>
+    <div class="cars">
+      <!-- List of cars will be inserted here using JavaScript -->
+    </div>
+    <script>
+      // Array of 10 cars
+      const cars = [
+        { name: "Toyota Camry", image: "toyatacamry.jpg" },
+        { name: "Honda Civic", image: "civic.jpg" },
+        { name: "Chevrolet Impala", image: "chevy.jpg" },
+        { name: "Ford Mustang", image: "ford.jpg" },
+        { name: "Nissan Altima", image: "nissan.jpg" },
+        { name: "Tesla Model S", image: "tesla.jpg" },
+        { name: "BMW 5 Series", image: "bmw.jpg" },
+        { name: "Audi A6", image: "audi.jpg" },
+        { name: "Mercedes-Benz E-Class", image: "e class.jpg" },
+        { name: "Jaguar XF", image: "jag.jpg" }
+      ];
+      
+      // Get the car list element
+      const carList = document.querySelector(".cars");
+      
+      // Loop through the cars array
+      for (const car of cars) {
+        // Create a new element for each car
+        const item = document.createElement("div");
+        item.classList.add("car");
+        item.innerHTML = `
+          <h2>${car.name}</h2>
+          <img src="${car.image}" alt="${car.name}" width="100%">
+        `;
+        
+        // Append the car element to the car list
+        carList.appendChild(item);
+      }
+    </script>
+  </body>
+</html>

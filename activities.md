@@ -12,61 +12,61 @@
   padding: 5px;
 }
 </style>
-## Planned Activities
-> Group events will occur each afternoon.  These are intended to explore local area attractions and build family bonds.
+# Potential activities
+Much of our trip will be based on our moods and the things which we encounter. Some potential activities are listed below
 
-### Tuesday Afternoon
-> Hike and/or Bike coordinated by Johnner.   There are 11 miles of trails and water around campus.   We will go on an adventure and explore the surroundings toward the Dam.
+<html>
+<body>
 
-- Arial photos of Camp and Nearby [Shasta Dam](https://en.wikipedia.org/wiki/Shasta_Dam)
+<h2>Locate the nearest planned activity on the intinerary</h2>
 
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/coram-ranch-arial.png" alt="site" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/coram-ranch-dam.png" alt="trail" style="width:100%">
-  </div>
-   <div class="column">
-  </div>
-</div>
+<input type="button" onclick="alert('The Bellagio Hotel & Casino is 4 hours and 46 minutes away or 307 miles.')" value="Stop 1">
+
+</body>
+</html>
+
+## Las Vegas
+
+![](images/vegas.jpg)
+
+Our route goes through Las Vegas, Nevada. Depending on our energy level, we may choose to spend time exploring the strip, eating lots of great food, and maybe making a little bit of money on the side.
+
+## Hike in Colorado
+
+![](images/colorado.jpg)
+
+As we drive through the rockies, if we have the time and energy we could spend some time exploring the beautiful nature which the mountains have to offer.
+<input type="button" onclick="alert('The Colorado hike which is in boulder is a 16 hour and 28 minute drive or 1,074 miles.')" value="Distance to activity 2">
+
+## Nebraska
+
+![](images/Aliens.jpg)
+
+While we are in Nebraska we can drive through and experience the great plains in all its glory.
+<input type="button" onclick="alert('The Nebraska emptiness is a 20 hours and 28 minute drive or 1,375 miles.')" value="Distance to activity 3">
+
+## Ohio State Basketball Game
+
+![](images/ohiostate.jpg)
+
+Once we arrive in Columbus, we may attend a basketball game at The Ohio State University. Go buckeyes!
+<input type="button" onclick="alert('The Ohio State University is a 33 hour drive or 2,243 miles.')" value="Distance to activity 4">
 
 
-### Wednesday Afternoon
-> Spelunking coordinated by Johnner and Lora.  The Mortensen's frequent through the California corridor.  On each pass we have been wanting to visit the [Lake Shasta Caverns](https://lakeshastacaverns.clickforward.com/).   This is highly recommended by all locals and the trip include bus, boat ride, and cave adventure.   
-- Pack up lunch and leave by about 12:45pm
-- 32 minute drive to the event
-- 45 minute pre-checking required, we can Picnic while we wait
-- Fees $37 adult, $23 7-15, $13 3-6, under 2 yrs free, 20 people required for this rate
-- 600 stairs in cavern and 1 hour hike, there are options for bus/boat only and a half-way turnout in cave
-- 2 hours of bus, boat and hike
-- Options for Gem Stone mining on site
+<html>
+<body>
 
-<div class="row"> <!--- make a new row -->
-  <!-- each column is one-third of width -->
-  <div class="column">
-    <img src="/images/Shasta_Caverns1.jpg" alt="cavern1" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Shasta_Caverns2.jpeg" alt="cavern1" style="width:100%">
-  </div>
-   <div class="column">
-    <img src="/images/Shasta_Caverns3.jpeg" alt="cavern1" style="width:100%">
-  </div>
-</div>
+<h1>Select and submit the time of the state your in. </h1>
 
-### Thursday Afternoon
-> Boating coordinated by Jared.  In the Eugene days the family had several boating trips at the surrounding lakes.  UJ (Frank's brother) was the center of many of these trips.  Picking up for UJ, Jared is coordinating a boating adventure and will be providing us updates.
 
-- [Bridge Bay at Shasta Lake](https://bridgebayhouseboats.com/small-boat-rental/ski-boat/)
 
-### Friday Afternoon
-> Adventure coordinated individually or by clan.   Crossover with a family or split up in any combination you like, aka Alaska Cruise style.  There are many activities in Shasta Lakes or nearby Redding.  Here are some that are recommended.  Be back for Dinner and the final Family Night.
+<form action="/action_page.php">
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="Submit">
+</form>
 
-- [Best Shasta Lakes Trails](https://www.alltrails.com/us/california/shasta-lake)
-- [Gold Hills Golfing](https://www.goldhillsgolf.com/)
-- [Turtle Bay Museum](https://www.turtlebay.org/)
-- [Sundial Bridge](https://www.turtlebay.org/sundial-bridge)
-- [Cascade Theater](https://cascadetheatre.org/)
-- [Waterworks Park](https://www.waterworkspark.com/)
+
+</body>
+</html>
+
