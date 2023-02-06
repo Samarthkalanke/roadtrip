@@ -87,27 +87,50 @@ if (t < 0) {
 </body>
 </html>
 
-# Basic Information and Route
-
-![](images/columbus.jpg)
-
-We will be taking a road trip up to Columbus, Ohio. The trip will take 4 days.
-
-### Route
-![](images/route.jpg)
-
-We plan on going through the midwest, making many stops and exploring new territory, and having a lot of fun! We will go on multiple interstate highways, including I-15, I-70, I-76, I-80, and finally I-74 into Columbus
-
-## Schedule
-
-| Day | Plan |
-| --- | --- |
-| Monday | We will eat breakfast and lunch at home, leaving mid-afternoon as we begin our drive and spend the night in Vegas |
-| Tuesday | We will maybe sleep in after a late and eventful night in Vegas and continue our trip, driving through most of day, and plan to spend the night somewhere in the mountains of Colorado, enjoying the scenery |
-| Wednesday | We will make our way out of the rockies and into the midwest as we traverse through Nebraska and Iowa, enjoying the culture. We will stop in Omaha or Des Moines, depending on circumstances such as time and our current mood. |
-| Thursday | We will continue the homestretch into Columbus enjoying the culture of beloved Ohio. Possible activities include attending a basketball game at The Ohio State University, gun range, doing other random fun stuff. We will then ditch the RV and sneak on a plane back home. |
-
-# Sign up to come along on the Trip
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Car Rental Service</title>
+  </head>
+  <body>
+    <h1>Car Rental Service</h1>
+    <ul id="car-list">
+      <!-- List of cars will be inserted here using JavaScript -->
+    </ul>
+    <script>
+      // Array of 10 cars
+      const cars = [
+        { name: "Toyota Camry", image: "toyota-camry.jpg" },
+        { name: "Honda Civic", image: "honda-civic.jpg" },
+        { name: "Chevrolet Impala", image: "chevrolet-impala.jpg" },
+        { name: "Ford Mustang", image: "ford-mustang.jpg" },
+        { name: "Nissan Altima", image: "nissan-altima.jpg" },
+        { name: "Tesla Model S", image: "tesla-model-s.jpg" },
+        { name: "BMW 5 Series", image: "bmw-5-series.jpg" },
+        { name: "Audi A6", image: "audi-a6.jpg" },
+        { name: "Mercedes-Benz E-Class", image: "mercedes-benz-e-class.jpg" },
+        { name: "Jaguar XF", image: "jaguar-xf.jpg" }
+      ];
+      
+      // Get the list element
+      const carList = document.getElementById("car-list");
+      
+      // Loop through the cars array
+      for (const car of cars) {
+        // Create a new list item for each car
+        const item = document.createElement("li");
+        item.innerHTML = `
+          <h2>${car.name}</h2>
+          <img src="${car.image}" alt="${car.name}">
+        `;
+        
+        // Append the list item to the car list
+        carList.appendChild(item);
+      }
+    </script>
+  </body>
+</html>
 
 <form action="create_User()">
     <p><label>
