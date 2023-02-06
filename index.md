@@ -115,7 +115,7 @@ if (t < 0) {
       const cars = [
         { name: "Toyota Camry", image: "toyatacamry.jpg" },
         { name: "Honda Civic", image: "civic.jpg" },
-        { name: "Chevrolet Impala", image: "chevy.jpg" },
+        { name: "Chevy Impala", image: "chevy.jpg" },
         { name: "Ford Mustang", image: "ford.jpg" },
         { name: "Nissan Altima", image: "nissan.jpg" },
         { name: "Tesla Model S", image: "tesla.jpg" },
