@@ -181,70 +181,59 @@ if (t < 0) {
 <html>
   <head>
     <meta charset="UTF-8">
+    <style>
+      .cars {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .car {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
     <title>Car Rental Service</title>
   </head>
   <body>
     <h1>Car Rental Service</h1>
-    <ul id="car-list">
+    <div class="cars">
       <!-- List of cars will be inserted here using JavaScript -->
-    </ul>
+    </div>
     <script>
       // Array of 10 cars
       const cars = [
-        { name: "2023 Toyota Camry", image: "toyatacamry.jpg" },
-        { name: "2023 Honda Civic", image: "civic.jpg" },
-        { name: "2022 Chevrolet Impala", image: "chevy.jpg" },
-        { name: "2023 Ford Mustang", image: "ford.jpg" },
-        { name: "2022 Nissan Altima", image: "nissan.png" },
-        { name: "2019 Tesla Model S", image: "tesla.jpg" },
-        { name: "2023 BMW 5 Series", image: "bmw.jpg" },
-        { name: "2023 Audi A6", image: "audi.jpg" },
-        { name: "2020 Mercedes-Benz E-Class", image: "e class.jpg" },
-        { name: "2022 Jaguar XF", image: "jag.jpg" }
+        { name: "Toyota Camry", image: "toyatacamry.jpg" },
+        { name: "Honda Civic", image: "civic.jpg" },
+        { name: "Chevrolet Impala", image: "chevy.jpg" },
+        { name: "Ford Mustang", image: "ford.jpg" },
+        { name: "Nissan Altima", image: "nissan.jpg" },
+        { name: "Tesla Model S", image: "tesla.jpg" },
+        { name: "BMW 5 Series", image: "bmw.jpg" },
+        { name: "Audi A6", image: "audi.jpg" },
+        { name: "Mercedes-Benz E-Class", image: "e class.jpg" },
+        { name: "Jaguar XF", image: "jag.jpg" }
       ];
       
-      // Get the list element
-      const carList = document.getElementById("car-list");
+      // Get the car list element
+      const carList = document.querySelector(".cars");
       
       // Loop through the cars array
       for (const car of cars) {
-        // Create a new list item for each car
-        const item = document.createElement("li");
+        // Create a new element for each car
+        const item = document.createElement("div");
+        item.classList.add("car");
         item.innerHTML = `
           <h2>${car.name}</h2>
-          <img src="${car.image}" alt="${car.name}">
+          <img src="${car.image}" alt="${car.name}" width="100%">
         `;
         
-        // Append the list item to the car list
+        // Append the car element to the car list
         carList.appendChild(item);
       }
     </script>
   </body>
 </html>
 
-<form action="create_User()">
-    <p><label>
-        Name:
-        <input type="text" name="name" id="name" required>
-    </label></p>
-    <p><label>
-        Password:
-        <input type="password" name="password" id="password" required>
-    </label></p>
-    <p><label>
-        Phone:
-        <input type="tel" name="phone_num" id="phone_num"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="858-111-0938">
-    </label></p>
-    <p><label>
-        Email:
-        <input type="email">   
-    </label></p>
-    <p>
-        <button>Sign up</button>
-    </p>
-</form>
 
 # Click here to Generate Password
 <script>
