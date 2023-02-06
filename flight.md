@@ -52,8 +52,6 @@
 
 <button>Reserve</button>
 
-## Review this car
+## Review this car 
 
-<input type="text"> /5
-
-<textarea>
+<input type="text"> /5 <textarea>
