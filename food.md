@@ -62,3 +62,20 @@ Your on Your own!!!
 </body>
 </html>
 
+
+# Click here to Generate Password
+<script>
+    function generatePassword() {
+        const password_length = 9;
+        const characters = ["a", "b", "c", "d", "e", "1", "2", "3", "4", "5"];
+        let password = "";
+
+        for (let index = 0; index < password_length; index++) {
+        password += characters[Math.floor(Math.random() * characters.length)];
+        }
+        document.getElementById("element").innerHTML = password
+    }
+</script>
+
+<button onclick="generatePassword()">Generate Password</button>
+<p id="element">
