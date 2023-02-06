@@ -101,16 +101,16 @@ if (t < 0) {
     <script>
       // Array of 10 cars
       const cars = [
-        { name: "Toyota Camry", image: "toyota-camry.jpg" },
-        { name: "Honda Civic", image: "honda-civic.jpg" },
-        { name: "Chevrolet Impala", image: "chevrolet-impala.jpg" },
-        { name: "Ford Mustang", image: "ford-mustang.jpg" },
-        { name: "Nissan Altima", image: "nissan-altima.jpg" },
-        { name: "Tesla Model S", image: "tesla-model-s.jpg" },
-        { name: "BMW 5 Series", image: "bmw-5-series.jpg" },
-        { name: "Audi A6", image: "audi-a6.jpg" },
-        { name: "Mercedes-Benz E-Class", image: "mercedes-benz-e-class.jpg" },
-        { name: "Jaguar XF", image: "jaguar-xf.jpg" }
+        { name: "2023 Toyota Camry", image: "toyatacamry.jpg" },
+        { name: "2023 Honda Civic", image: "civic.jpg" },
+        { name: "2022 Chevrolet Impala", image: "chevy.jpg" },
+        { name: "2023 Ford Mustang", image: "ford.jpg" },
+        { name: "2022 Nissan Altima", image: "nissan.png" },
+        { name: "2019 Tesla Model S", image: "tesla.jpg" },
+        { name: "2023 BMW 5 Series", image: "bmw.jpg" },
+        { name: "2023 Audi A6", image: "audi.jpg" },
+        { name: "2020 Mercedes-Benz E-Class", image: "e class.jpg" },
+        { name: "2022 Jaguar XF", image: "jag.jpg" }
       ];
       
       // Get the list element
