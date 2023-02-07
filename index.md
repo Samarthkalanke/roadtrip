@@ -88,59 +88,28 @@ if (t < 0) {
 </html>
 
 
-
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <style>
-      .cars {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .car {
-        width: calc(33.33% - 20px);
-        margin: 10px;
-        text-align: center;
-      }
-    </style>
-    <title>Car Rental Service</title>
-  </head>
-  <body>
-    <h1>Car Rental Service</h1>
-    <div class="cars">
-      <!-- List of cars will be inserted here using JavaScript -->
-    </div>
-    <script>
-      // Array of 10 cars
-      const cars = [
-        { name: "Toyota Camry", image: "toyatacamry.jpg" },
-        { name: "Honda Civic", image: "civic.jpg" },
-        { name: "Chevy Impala", image: "chevy.jpg" },
-        { name: "Ford Mustang", image: "ford.jpg" },
-        { name: "Nissan Altima", image: "nissan.jpg" },
-        { name: "Tesla Model S", image: "tesla.jpg" },
-        { name: "BMW 5 Series", image: "bmw.jpg" },
-        { name: "Audi A6", image: "audi.jpg" },
-        { name: "Mercedes-Benz E-Class", image: "e class.jpg" },
-        { name: "Jaguar XF", image: "jag.jpg" }
-      ];
-      
-       // Get the car list element
-      const carList = document.querySelector(".cars");
-      
-      // Loop through the cars array
-      for (const car of cars) {
-        // Create a new element for each car
-        const item = document.createElement("div");
-        item.classList.add("car");
-        item.innerHTML = `
-          <h2>${car.name}</h2>
-          <img src="${car.image}" alt="${car.name}" width="100%">
-        `;
-        
-        // Append the car element to the car list
-        carList.appendChild(item);
-      }
-    </script>
-  </body>
+<head>
+  <script>
+    function loadCars() {
+      fetch('https://rapidapi.com/principalapis/api/car-data/')
+        .then(res => res.json())
+        .then(data => {
+          let output = '<table><tr><th>Make</th><th>Model</th><th>Year</th></tr>';
+          for (let i = 0; i < 10; i++) {
+            output += '<tr>' +
+              '<td>' + data[i].make + '</td>' +
+              '<td>' + data[i].model + '</td>' +
+              '<td>' + data[i].year + '</td>' +
+              '</tr>';
+          }
+          output += '</table>';
+          document.getElementById('table').innerHTML = output;
+        });
+    }
+  </script>
+</head>
+<body onload="loadCars()">
+  <div id="table"></div>
+</body>
 </html>
