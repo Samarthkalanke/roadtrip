@@ -29,3 +29,4 @@ Where are you going:<input type="text" name="going" id="going">
         <td id="activityDisplay"></td>
         <td id="licDisplay"></td>
         <td id="descDisplay"></td>
+        <td id="goinDisplay"></td>
