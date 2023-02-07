@@ -1,12 +1,14 @@
 # Reserve a Car
 Name: <input type="text" name="name" id="names">
 Car: <input type="text" name="activity" id="activity">
+License Plate: <input type="text" name="description" id="description">
 Dates Using: <input type="text" name="description" id="description">
 
 <script>
     function display() {
         document.getElementById("nameDisplay").innerHTML = names.value;
         document.getElementById("activityDisplay").innerHTML = activity.value;
+        document.getElementById("descDisplay").innerHTML = description.values;
         document.getElementById("descDisplay").innerHTML = description.value;
     }
 </script>
@@ -16,6 +18,7 @@ Dates Using: <input type="text" name="description" id="description">
     <tr>
         <th>Name</th>
         <th>Car</th>
+        <th>License Plate</th>
         <th>Dates Using</th>
     </tr>
     <tr>
