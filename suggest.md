@@ -3,6 +3,7 @@ Name: <input type="text" name="name" id="names">
 Car: <input type="text" name="activity" id="activity">
 License Plate: <input type="text" name="description" id="description">
 Dates Using: <input type="text" name="description" id="description">
+Where are you going:<input type="text" name="going" id="going">
 
 <script>
     function display() {
@@ -10,6 +11,7 @@ Dates Using: <input type="text" name="description" id="description">
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("descDisplay").innerHTML = description.values;
         document.getElementById("descDisplay").innerHTML = description.value;
+        document.getElementById("goinDisplay").innerHTML = description.value;
     }
 </script>
 
@@ -20,9 +22,11 @@ Dates Using: <input type="text" name="description" id="description">
         <th>Car</th>
         <th>License Plate</th>
         <th>Dates Using</th>
+        <th>City</th>
     </tr>
     <tr>
         <td id="nameDisplay"></td>
         <td id="activityDisplay"></td>
         <td id="descDisplay"></td>
         <td id="descDisplay"></td>
+        <td id="goinDisplay"></td>
