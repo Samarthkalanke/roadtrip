@@ -92,8 +92,14 @@ if (t < 0) {
 <head>
   <script>
     function loadCars() {
+      document.getElementById('table').innerHTML = 'Loading...';
       fetch('https://rapidapi.com/principalapis/api/car-data/')
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) {
+            throw new Error('Failed to fetch data');
+          }
+          return res.json();
+        })
         .then(data => {
           let output = '<table><tr><th>Make</th><th>Model</th><th>Year</th></tr>';
           for (let i = 0; i < 10; i++) {
@@ -105,6 +111,9 @@ if (t < 0) {
           }
           output += '</table>';
           document.getElementById('table').innerHTML = output;
+        })
+        .catch(error => {
+          document.getElementById('table').innerHTML = 'Error: ' + error.message;
         });
     }
   </script>
@@ -113,3 +122,4 @@ if (t < 0) {
   <div id="table"></div>
 </body>
 </html>
+
