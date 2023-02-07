@@ -125,7 +125,7 @@ if (t < 0) {
         { name: "Jaguar XF", image: "jag.jpg" }
       ];
       
-      // Get the car list element
+       // Get the car list element
       const carList = document.querySelector(".cars");
       
       // Loop through the cars array
