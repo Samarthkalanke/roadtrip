@@ -25,3 +25,4 @@ Dates Using: <input type="text" name="description" id="description">
         <td id="nameDisplay"></td>
         <td id="activityDisplay"></td>
         <td id="descDisplay"></td>
+        <td id="descDisplay"></td>
