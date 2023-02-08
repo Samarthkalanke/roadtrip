@@ -1,7 +1,7 @@
 # Reserve a Car
 Name: <input type="text" name="name" id="names">
 Car: <input type="text" name="activity" id="activity">
-License Plate: <input type="text" name="description" id="description">
+License Plate: <input type="text" name="description" id="license">
 Dates Using: <input type="text" name="description" id="description">
 Where are you going:<input type="text" name="going" id="going">
 
@@ -9,7 +9,7 @@ Where are you going:<input type="text" name="going" id="going">
     function display() {
         document.getElementById("nameDisplay").innerHTML = names.value;
         document.getElementById("activityDisplay").innerHTML = activity.value;
-        document.getElementById("descDisplay").innerHTML = description.values;
+        document.getElementById("licDisplay").innerHTML = license.value;
         document.getElementById("descDisplay").innerHTML = description.value;
         document.getElementById("goinDisplay").innerHTML = description.value;
     }
@@ -27,6 +27,6 @@ Where are you going:<input type="text" name="going" id="going">
     <tr>
         <td id="nameDisplay"></td>
         <td id="activityDisplay"></td>
-        <td id="descDisplay"></td>
+        <td id="licDisplay"></td>
         <td id="descDisplay"></td>
         <td id="goinDisplay"></td>
