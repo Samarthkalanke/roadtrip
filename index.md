@@ -90,6 +90,15 @@ if (t < 0) {
 
 <html>
   <head>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 8px;
+      }
+    </style>
     <script>
       function loadCars() {
         document.getElementById('table').innerHTML = 'Loading...';
@@ -108,9 +117,11 @@ if (t < 0) {
             return res.json();
           })
           .then(data => {
-            let output = '<table><tr><th>Make</th><th>Model</th><th>Year</th></tr>';
+            let output = '<table><tr><th></th><th>Price</th><th>Make</th><th>Model</th><th>Year</th></tr>';
             for (let i = 0; i < 10; i++) {
               output += '<tr>' +
+                '<td><img src="' + data[i].image + '" width="100" height="100"></td>' +
+                '<td>' + data[i].price + '</td>' +
                 '<td>' + data[i].make + '</td>' +
                 '<td>' + data[i].model + '</td>' +
                 '<td>' + data[i].year + '</td>' +
@@ -129,3 +140,6 @@ if (t < 0) {
     <div id="table"></div>
   </body>
 </html>
+
+
+
