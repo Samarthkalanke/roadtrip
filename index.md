@@ -120,7 +120,7 @@ if (t < 0) {
             let output = '<table><tr><th></th><th>Price</th><th>Make</th><th>Model</th><th>Year</th></tr>';
             for (let i = 0; i < 10; i++) {
               output += '<tr>' +
-                '<td><a href="/suggest"><button>Reserve</button></a></td>' +
+                '<td><a href="/suggest"><button>Reserve</button></a><a href="/cars"><button>View Cars</button></a></td>' +
                 '<td>' + data[i].price + '</td>' +
                 '<td>' + data[i].make + '</td>' +
                 '<td>' + data[i].model + '</td>' +
