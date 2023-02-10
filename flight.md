@@ -32,53 +32,59 @@
 
 <script>
     function survey() {
-    function calculateAnswers() {
-        var a1score = 0;
-        var a2score = 0;
-        var a3score = 0;
-        var a4score = 0;
-
-        var userAnswers = document.getElementsByClassName("answer");
-        for (var i=0; i<userAnswers.length; i++) {
-        if (userAnswers[i].checked) {
-            if (userAnswers[i].value == "a1") {
-                a1score = a1score + 1;
+        function calculateAnswers() {
+            var a1score = 0;
+            var a2score = 0;
+            var a3score = 0;
+            var a4score = 0;
+    
+            var userAnswers = document.getElementsByClassName("answer");
+            for (var i=0; i<userAnswers.length; i++) {
+                if (userAnswers[i].checked) {
+                    if (userAnswers[i].value == "a1") {
+                        a1score = a1score + 1;
+                    }
+                    if (userAnswers[i].value == "a2") {
+                        a2score = a2score + 1;
+                    }
+                    if (userAnswers[i].value == "a3") {
+                        a3score = a3score + 1;
+                    }
+                    if (userAnswers[i].value == "a4") {
+                        a4score = a4score + 1;
+                    }
+                } 
             }
-            if (userAnswers[i].value == "a2") {
-                a2score = a2score + 1;
-            }
-            if (userAnswers[i].value == "a3") {
-                a3score = a3score + 1;
-            }
-            if (userAnswers[i].value == "a4") {
-                a4score = a4score + 1;
-            }
-       } 
-      }
+            return {
+                a1score: a1score,
+                a2score: a2score,
+                a3score: a3score,
+                a4score: a4score
+            };
+        }
+        var answers = calculateAnswers();
+        var a1score = answers.a1score;
+        var a2score = answers.a2score;
+        var a3score = answers.a3score;
+        var a4score = answers.a4score;
+    
+        var maxScore = Math.max(a1score, a2score, a3score, a4score);
+        var results = document.getElementById("result");
+        if (a1score == maxScore) {
+            results.innerHTML = "A1 Max test";
+        }
+        if (a2score == maxScore) {
+            results.innerHTML = "A2 Max Test";
+        }
+        if (a3score == maxScore) {
+            results.innerHTML = "A3 Max Test";
+        }
+        if (a4score == maxScore) {
+            results.innerHTML = "A4 Max Test";
+        }
     }
-   var answers = calculateAnswers()
-   var a1score = answers.a1score
-   var a2score = answers.a2score
-   var a3score = answers.a3score
-   var a4score = answers.a4score
-
-   var maxScore = Math.max(a1score, a2score, a3score, a4score);
-   var results = document.getElementById("result")
-   if (a1score == maxScore) {
-    results.innerHTML = "A1 Max test"
-   }
-   if (a2score == maxScore) {
-    results.innerHTML = "A2 Max Test"
-   }
-   if (a3score == maxScore) {
-    results.innerHTML = "A3 Max Test"
-   }
-   if (a4score == maxScore) {
-    results.innerHTML = "A4 Max Test"
-   }
-}
 </script>
 
-<button onclick="survey(results)">Submit Answers</button>
+<button onclick="survey()">Submit Answers</button>
 
 <p id="result"></p>
