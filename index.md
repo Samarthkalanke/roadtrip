@@ -120,7 +120,7 @@ if (t < 0) {
             let output = '<table><tr><th></th><th>Price</th><th>Make</th><th>Model</th><th>Year</th></tr>';
             for (let i = 0; i < 10; i++) {
               output += '<tr>' +
-                '<td><img src="' + data[i].image + '" width="100" height="100"></td>' +
+                '<td><button>Button</button></td>' +
                 '<td>' + data[i].price + '</td>' +
                 '<td>' + data[i].make + '</td>' +
                 '<td>' + data[i].model + '</td>' +
@@ -140,6 +140,3 @@ if (t < 0) {
     <div id="table"></div>
   </body>
 </html>
-
-
-
