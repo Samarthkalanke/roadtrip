@@ -121,7 +121,6 @@ if (t < 0) {
             for (let i = 0; i < 10; i++) {
               output += '<tr>' +
                 '<td><a href="/cars"><button>View Car</button></a></td>' +
-                '<td>' + data[i].price + '</td>' +
                 '<td>' + data[i].make + '</td>' +
                 '<td>' + data[i].model + '</td>' +
                 '<td>' + data[i].year + '</td>' +
