@@ -1,3 +1,5 @@
+![photo]({{site.baseurl}}/images/background.jpg)
+
 <html>
   <head>
     <style>
