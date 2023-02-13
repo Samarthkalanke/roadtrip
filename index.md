@@ -1,4 +1,4 @@
-![photo]({{site.baseurl}}/images/background.jpg)
+<img src="/images/background.jpg" height=300 width=1000 >
 
 <html>
   <head>
