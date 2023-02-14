@@ -71,7 +71,7 @@
         var maxScore = Math.max(a1score, a2score, a3score, a4score);
         var results = document.getElementById("result");
         if (a1score == maxScore) {
-            results.innerHTML = "A1 Max test";
+            results.innerHTML = "For your trip, we recommend cars on the lower end of our price range. These include the <a href=/cars#taurus>Ford Taurus</a> and <a href=/cars#enclave>Buick Enclave</a>";
         }
         if (a2score == maxScore) {
             results.innerHTML = "A2 Max Test";
@@ -87,4 +87,4 @@
 
 <button onclick="survey()">Submit Answers</button>
 
-<p id="result"></p>
+<h1 id="result"></h1>
