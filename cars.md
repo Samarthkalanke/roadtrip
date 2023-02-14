@@ -5,7 +5,7 @@
 
 Features: 275-hp V-6, Seven Seats, Collapsible SmartSlide second-row seats, Standard power liftgate, Optional rearview camera
 
-Price: 218$ Per Day
+Price: $218 Per Day
 
 MPG: 14/20 
 
@@ -17,7 +17,7 @@ MPG: 14/20
 
 Features: 6-speed manual, Front wheel drive, Inline 4, 4 seats
 
-Price: 149$ Per Day 
+Price: $149 Per Day 
 
 MPG: 19/24
 
@@ -29,7 +29,7 @@ MPG: 19/24
 
 Features: Third row seating, Heated washer nozzles, 12-volt outlet in the cargo area, and four-zone climate control
 
-Price: 322$ Per Day
+Price: $322 Per Day
 
 MPG: 21/32
 
@@ -41,7 +41,7 @@ MPG: 21/32
 
 Features: 3.0L V-6 Engine., 4-spd auto w/OD Transmission, 145 @ 5,250 rpm Horsepower, front-wheel Drive type
 
-Price: 99$ Per Day
+Price: $99 Per Day
 
 MPG; 4/12
 
@@ -53,7 +53,7 @@ MPG; 4/12
 
 Features:  LED headlights, a digital instrument panel, a power liftgate, dual-zone automatic climate control, and a panoramic moonroof with a power sunshade
 
-Price: 399$ Per Day
+Price: $399 Per Day
 
 MPG: 23/35
 
@@ -65,7 +65,7 @@ MPG: 23/35
 
 Features: SUV, 7 Seats, Four Wheel Drive, 325.0-hp, 6.0-liter, 8 Cylinder Engine
 
-Price: 279$ Per Day
+Price: $279 Per Day
 
 MPG: 14/24
 
@@ -77,7 +77,7 @@ MPG: 14/24
 
 Features: Fast and powerful 6.2-liter V-8, Quiet and comfortable ride without the magnetic shocks, Smooth eight-speed transmission
 
-Price: 212$ Per Day
+Price: $212 Per Day
 
 MPG: 18/27
 
@@ -89,7 +89,7 @@ MPG: 18/27
 
 Features: 4-speed automatic, Four wheel drive, Inline 5
 
-Price: 165$ Per Day
+Price: $165 Per Day
 
 MPG: 15/20
 
@@ -102,7 +102,7 @@ MPG: 15/20
 
 Features: High-intensity-discharge low-beam headlights, Power liftgate, Moonroof, Upgraded stereo features a 7-inch touch-screen, satellite radio, text messaging capability, iTunes tagging and two USB ports, Harman Kardon premium stereo, Navigation system, Dual-zone automatic air conditioning, Heated front and rear seats.
 
-Price: 250$ Per Day
+Price: $250 Per Day
 
 MPG 16/22
 
@@ -114,7 +114,7 @@ MPG 16/22
 
 Features: Continuously variable-speed automatic, Front wheel drive, Inline 4
 
-Price: 142$ Per Day
+Price: $142 Per Day
 
 MPG: 16/27
 
