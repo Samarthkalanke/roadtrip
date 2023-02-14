@@ -80,7 +80,7 @@
             results.innerHTML = "A3 Max Test";
         }
         if (a4score == maxScore) {
-            results.innerHTML = "For your trip, you probably would want the very best we have to offer. Some cars for you would be the <a href=/cars#XC60>Volvo XC60</a>, the <a href=/cars#sierra>GMC Sierra 1500 Crew Cab</a>, and the <a href=/cars#mini>MINI Convertible</a>";
+            results.innerHTML = "For your trip, you probably would want the very best we have to offer. Some cars for you would be the <a href=/cars#XC60>Volvo XC60</a>, the <a href=/cars#sierra>GMC Sierra 1500 Crew Cab</a>, and the <a href=/cars#mini>MINI Convertible</a>.";
         }
     }
 </script>
