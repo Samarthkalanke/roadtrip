@@ -1,6 +1,7 @@
 <h1 id="enclave">2008 Buick Enclave</h1>
 
-![](/images/enclave.jpg)
+<img src="/images/enclave.jpg" height=300 width=600 >
+
 
 Features: 275-hp V-6, Seven Seats, Collapsible SmartSlide second-row seats, Standard power liftgate, Optional rearview camera
 
@@ -12,7 +13,7 @@ MPG: 14/20
 
 <h1 id="mini">2006 MINI Convertible</h1>
 
-![](/images/mini.jpg)
+<img src="/images/mini.jpg" height=300 width=600 >
 
 Features: 6-speed manual, Front wheel drive, Inline 4, 4 seats
 
@@ -24,7 +25,7 @@ MPG: 19/24
 
 <h1 id="XC90">2019 Volvo XC90</h1>
 
-![](/images/xc90.jpg)
+<img src="/images/xc90.jpg" height=300 width=600 >
 
 Features: Third row seating, Heated washer nozzles, 12-volt outlet in the cargo area, and four-zone climate control
 
@@ -36,7 +37,7 @@ MPG: 21/32
 
 <h1 id="taurus">1999 Ford Taurus</h1>
 
-![](/images/taurus.jpg)
+<img src="/images/taurus.jpg" height=300 width=600 >
 
 Features: 3.0L V-6 Engine., 4-spd auto w/OD Transmission, 145 @ 5,250 rpm Horsepower, front-wheel Drive type
 
@@ -48,7 +49,7 @@ MPG; 4/12
 
 <h1 id="XC60">2020 Volvo XC60</h1>
 
-![](/images/xc60.jpg)
+<img src="/images/xc60.jpg" height=300 width=600 >
 
 Features:  LED headlights, a digital instrument panel, a power liftgate, dual-zone automatic climate control, and a panoramic moonroof with a power sunshade
 
@@ -60,7 +61,7 @@ MPG: 23/35
 
 <h1 id="hummer">2006 HUMMER H2</h1>
 
-![](/images/hummer.jpg)
+<img src="/images/hummer.jpg" height=300 width=600 >
 
 Features: SUV, 7 Seats, Four Wheel Drive, 325.0-hp, 6.0-liter, 8 Cylinder Engine
 
@@ -72,7 +73,7 @@ MPG: 14/24
 
 <h1 id="sierra">2016 GMC Sierra 1500 Crew Cab</h1>
 
-![](/images/sierra.jpg)
+<img src="/images/sierra.jpg" height=300 width=600 >
 
 Features: Fast and powerful 6.2-liter V-8, Quiet and comfortable ride without the magnetic shocks, Smooth eight-speed transmission
 
@@ -84,7 +85,7 @@ MPG: 18/27
 
 <h1 id="canyon">2008 GMC Canyon Crew Cab</h1>
 
-![](/images/canyon.jpg)
+<img src="/images/canyon.jpg" height=300 width=600 >
 
 Features: 4-speed automatic, Four wheel drive, Inline 5
 
@@ -96,7 +97,8 @@ MPG: 15/20
 
 <h1 id="outback">2016 Subaru Outback</h1>
 
-![](/images/subaru.jpg)
+
+<img src="/images/subaru.jpg" height=300 width=600 >
 
 Features: High-intensity-discharge low-beam headlights, Power liftgate, Moonroof, Upgraded stereo features a 7-inch touch-screen, satellite radio, text messaging capability, iTunes tagging and two USB ports, Harman Kardon premium stereo, Navigation system, Dual-zone automatic air conditioning, Heated front and rear seats.
 
@@ -108,7 +110,7 @@ MPG 16/22
 
 <h1 id="outlander">2010 Mitsubishi Outlander</h1>
 
-![](/images/outlander.jpg)
+<img src="/images/outlander.jpg" height=300 width=600 >
 
 Features: Continuously variable-speed automatic, Front wheel drive, Inline 4
 
