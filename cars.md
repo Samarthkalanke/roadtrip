@@ -2,11 +2,11 @@
 
 ![](/images/enclave.jpg)
 
-Description:
+Features: 275-hp V-6, Seven Seats, Collapsible SmartSlide second-row seats, Standard power liftgate, Optional rearview camera
 
-Price:
+Price: 218$ Per Day
 
-Mileage:
+MPG: 14/20 
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -14,11 +14,11 @@ Mileage:
 
 ![](/images/mini.jpg)
 
-Description:
+Features: 6-speed manual, Front wheel drive, Inline 4, 4 seats
 
-Price:
+Price: 149$ Per Day 
 
-Mileage:
+MPG: 19/24
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -26,11 +26,11 @@ Mileage:
 
 ![](/images/xc90.jpg)
 
-Description:
+Features: Third row seating, Heated washer nozzles, 12-volt outlet in the cargo area, and four-zone climate control
 
-Price:
+Price: 322$ Per Day
 
-Mileage:
+MPG: 21/32
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -38,11 +38,11 @@ Mileage:
 
 ![](/images/taurus.jpg)
 
-Description:
+Features: 3.0L V-6 Engine., 4-spd auto w/OD Transmission, 145 @ 5,250 rpm Horsepower, front-wheel Drive type
 
-Price: $1 per day
+Price: 99$ Per Day
 
-Mileage:
+MPG; 4/12
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -50,11 +50,11 @@ Mileage:
 
 ![](/images/xc60.jpg)
 
-Description:
+Features:  LED headlights, a digital instrument panel, a power liftgate, dual-zone automatic climate control, and a panoramic moonroof with a power sunshade
 
-Price:
+Price: 399$ Per Day
 
-Mileage:
+MPG: 23/35
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -62,11 +62,11 @@ Mileage:
 
 ![](/images/hummer.jpg)
 
-Description:
+Features: SUV, 7 Seats, Four Wheel Drive, 325.0-hp, 6.0-liter, 8 Cylinder Engine
 
-Price:
+Price: 279$ Per Day
 
-Mileage:
+MPG: 14/24
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -74,11 +74,11 @@ Mileage:
 
 ![](/images/sierra.jpg)
 
-Description:
+Features: Fast and powerful 6.2-liter V-8, Quiet and comfortable ride without the magnetic shocks, Smooth eight-speed transmission
 
-Price:
+Price: 212$ Per Day
 
-Mileage:
+MPG: 18/27
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -86,11 +86,11 @@ Mileage:
 
 ![](/images/canyon.jpg)
 
-Description:
+Features: 4-speed automatic, Four wheel drive, Inline 5
 
-Price:
+Price: 165$ Per Day
 
-Mileage:
+MPG: 15/20
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -98,11 +98,11 @@ Mileage:
 
 ![](/images/subaru.jpg)
 
-Description:
+Features: High-intensity-discharge low-beam headlights, Power liftgate, Moonroof, Upgraded stereo features a 7-inch touch-screen, satellite radio, text messaging capability, iTunes tagging and two USB ports, Harman Kardon premium stereo, Navigation system, Dual-zone automatic air conditioning, Heated front and rear seats.
 
-Price:
+Price: 250$ Per Day
 
-Mileage:
+MPG 16/22
 
 <button><a href="/reserve">Reserve</a></button>
 
@@ -110,10 +110,10 @@ Mileage:
 
 ![](/images/outlander.jpg)
 
-Description:
+Features: Continuously variable-speed automatic, Front wheel drive, Inline 4
 
-Price:
+Price: 142$ Per Day
 
-Mileage:
+MPG: 16/27
 
 <button><a href="/reserve">Reserve</a></button>
