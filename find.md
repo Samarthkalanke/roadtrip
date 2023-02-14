@@ -1,5 +1,7 @@
 # Find a Car that's Right for You
 
+## Take this survey to find some cars you may want to rent.
+
 <p>How many miles are planning on driving?</p>
 <input type="radio" id="0-200" value="a1" name="q1" class="answer">
 <label for="0-200">0-200</label><br>
@@ -74,10 +76,10 @@
             results.innerHTML = "For your trip, we recommend cars on the lower end of our price range. These include the <a href=/cars#taurus>Ford Taurus</a> and <a href=/cars#canyon>GMC Canyon Crew Cab</a>.";
         }
         if (a2score == maxScore) {
-            results.innerHTML = "A2 Max Test";
+            results.innerHTML = "For your trip, you probably want something which is reliable yet not too expensive.";
         }
         if (a3score == maxScore) {
-            results.innerHTML = "A3 Max Test";
+            results.innerHTML = "Based on the answers you put, you probably want some of our higher end cars.";
         }
         if (a4score == maxScore) {
             results.innerHTML = "For your trip, you probably would want the very best we have to offer. Some cars for you would be the <a href=/cars#XC60>Volvo XC60</a>, the <a href=/cars#sierra>GMC Sierra 1500 Crew Cab</a>, and the <a href=/cars#mini>MINI Convertible</a>.";
