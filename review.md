@@ -1,3 +1,41 @@
 # Rate your experience 
+Name: <input type="text" name="name" id="names">
+Car: <input type="text" name="activity" id="activity">
+Write a review : <input type="text" name="write" id="license">
 
-input testing
+
+<script>
+    function display() {
+        document.getElementById("nameDisplay").innerHTML = names.value;
+        document.getElementById("activityDisplay").innerHTML = activity.value;
+        document.getElementById("licDisplay").innerHTML = license.value;
+    }
+</script>
+
+<button onclick="display()">Enter</button>
+<table id="table">
+    <tr>
+        <th>Name</th>
+        <th>Car</th>
+        <th>Write a review</th>
+    </tr>
+    <tr>
+        <td id="nameDisplay"></td>
+        <td id="activityDisplay"></td>
+        <td id="licDisplay"></td>
+
+# Rate out of 5 stars your overall experience 
+<div class="rating">
+  <input type="radio" id="star5" name="rating" value="5">
+  <label for="star5"></label>
+  <input type="radio" id="star4" name="rating" value="4">
+  <label for="star4"></label>
+  <input type="radio" id="star3" name="rating" value="3">
+  <label for="star3"></label>
+  <input type="radio" id="star2" name="rating" value="2">
+  <label for="star2"></label>
+  <input type="radio" id="star1" name="rating" value="1">
+  <label for="star1"></label>
+</div>
+
+
