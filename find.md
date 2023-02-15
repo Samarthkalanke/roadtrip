@@ -76,10 +76,10 @@
             results.innerHTML = "For your trip, we recommend cars on the lower end of our price range. These include the <a href=/cars#taurus>Ford Taurus</a> and <a href=/cars#canyon>GMC Canyon Crew Cab</a>.";
         }
         if (a2score == maxScore) {
-            results.innerHTML = "For your trip, you probably want something which is reliable yet not too expensive.";
+            results.innerHTML = "For your trip, you probably want something which is reliable yet not too expensive. These include the <a href=/cars#enclave>Buick Enclave</a> and the <a href=/cars#outlander>Mitsubishi Outlander</a>.";
         }
         if (a3score == maxScore) {
-            results.innerHTML = "Based on the answers you put, you probably want some of our higher end cars.";
+            results.innerHTML = "Based on the answers you put, you probably want some of our higher end cars. These include the <a href=/cars#XC90>Volvo XC90</a>, <a href=/cars#hummer>HUMMER H2</a>, and <a href=/cars#outback>Subaru Outback</a>.";
         }
         if (a4score == maxScore) {
             results.innerHTML = "For your trip, you probably would want the very best we have to offer. Some cars for you would be the <a href=/cars#XC60>Volvo XC60</a>, the <a href=/cars#sierra>GMC Sierra 1500 Crew Cab</a>, and the <a href=/cars#mini>MINI Convertible</a>.";
