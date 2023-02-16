@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <img src="/images/car.gif" height=350 width=900 >
+=======
+![](/images/car.gif)
+>>>>>>> 9477c83 (fdsa)
 
 # Reserve a Car
 Name: <input type="text" name="name" id="names">
