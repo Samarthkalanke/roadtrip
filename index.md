@@ -1,4 +1,4 @@
-<img src="/images/rental.jpg" height=300 width=1000 >
+<img src="/images/rental.jpg" height=350 width=2000 >
 
 <html>
   <head>

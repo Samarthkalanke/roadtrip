@@ -1,3 +1,5 @@
+<img src="/images/car.gif" height=350 width=900 >
+
 # Reserve a Car
 Name: <input type="text" name="name" id="names">
 Car: <input type="text" name="activity" id="activity">
