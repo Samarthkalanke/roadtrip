@@ -11,7 +11,7 @@ Where are you going:<input type="text" name="going" id="going">
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("licDisplay").innerHTML = license.value;
         document.getElementById("descDisplay").innerHTML = description.value;
-        document.getElementById("goinDisplay").innerHTML = description.value;
+        document.getElementById("goinDisplay").innerHTML = going.value;
     }
 </script>
 
