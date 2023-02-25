@@ -70,7 +70,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
     //     }
     // }) -->
 
-    function display() {
+    function mydisplay() {
         console.log("comes in display");
         document.getElementById("nameDisplay").innerHTML = names.value;
         document.getElementById("activityDisplay").innerHTML = activity.value;
@@ -120,19 +120,8 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
     <div id="City"></div>
 </div>
 
-    <input type="car">
-    <input type="license plate">
 
-
-</form>
-
-
-<button type="button">Book a Reservation!</button>
-
-
-
-
-<button onclick="display()">Reserve</button>
+<button onclick="mydisplay()">Reserve</button>
 
 
 <table id="table">
