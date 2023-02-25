@@ -8,6 +8,11 @@ Dates Using: <input type="text" name="description" id="description"><br><br>
 Where are you going:<input type="text" name="going" id="going"><br><br>
 
 <script>
+    let SHEET_ID = '16dzb_zqTXIXj4QQSZSCthwOaVbIypr1FfPpV58N6VcI'
+    let SHEET_TITLE = 'Sheet1'
+    let SHEET_RANGE = 'A1:D11'
+
+    let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
 
     fetch(FULL_URL)
     .then(response => response.text())
