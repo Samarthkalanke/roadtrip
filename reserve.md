@@ -100,8 +100,8 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
     }
     function mydisplay() {
         console.log("comes in display");
-        document.getElementById("nameDisplay").innerHTML = document.getElementById("names").innerHTML;
-        document.getElementById("activityDisplay").innerHTML = "Test";
+        document.getElementById("nameDisplay").innerHTML = names.value;
+        document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("licDisplay").innerHTML = license.value;
         document.getElementById("descDisplay").innerHTML = description.value;
         document.getElementById("goinDisplay").innerHTML = going.value;
@@ -125,7 +125,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 </script>
 </head>
 
-<body onload="loadCars()">
+<body onload="loadCars(); GetSheets();">
     <div id="table"></div>
 
 <form>
