@@ -1,4 +1,4 @@
-<!-- ![](/images/car.gif)
+![](/images/car.gif)
 
 # Reserve a Car
 Name: <input type="text" name="name" id="names">
@@ -159,10 +159,12 @@ Where are you going:<input type="text" name="going" id="going">
         <td id="activityDisplay"></td>
         <td id="licDisplay"></td>
         <td id="descDisplay"></td>
-        <td id="goinDisplay"></td> -->
+        <td id="goinDisplay"></td> 
+        </tr>
+        </table>
 
 
-
+<!-- 
 ![](/images/car.gif)
 
 # Reserve a Car
@@ -262,7 +264,7 @@ Where are you going:<input type="text" name="going" id="going">
         <td id="activityDisplay"></td>
         <td id="licDisplay"></td>
         <td id="descDisplay"></td>
-        <td id="goinDisplay"></td> -->
+        <td id="goinDisplay"></td> 
 
 
 <h1>My First Heading</h1>
@@ -295,3 +297,4 @@ Where are you going:<input type="text" name="going" id="going">
     <div id="Date_Reserve"></div>
     <div id="Car_avaliablity"></div>
     <div id="City"></div>
+</div> -->
