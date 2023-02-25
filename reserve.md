@@ -99,7 +99,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
             [-1,-1,-1,-1,-1];
         ];
     }
-
+</script>
 <form>
 
 <div id="Carstitle">
@@ -130,7 +130,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 <button type="button">Book a Reservation!</button>
 
 
-</script>
+
 
 <button onclick="display()">Reserve</button>
 
