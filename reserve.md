@@ -1,15 +1,13 @@
 ![](/images/car.gif)
 
+# Reserve a Car
+Name: <input type="text" name="name" id="nameDisplay"> <br><br>
+Car: <input type="text" name="activity" id="activity"> <br><br>
+License Plate: <input type="text" name="description" id="license"> <br><br>
+Dates Using: <input type="text" name="description" id="description"><br><br>
+Where are you going:<input type="text" name="going" id="going"><br><br>
 
-
-
-<script>
-    // let SHEET_ID = '1J0CpPX3hzEBJZqxTBNxOdufO7c2QlArscgkkyUaRPTU'
-    // let SHEET_TITLE = 'Sheet1'
-    // let SHEET_RANGE = 'B1:G11'
-
-    // let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
-
+<!-- 
     // fetch(FULL_URL)
     // .then(response => response.text())
     // .then(rep => {
@@ -69,7 +67,7 @@
     //         NewBoxCity.innerHTML = data.table.rows[i].c[5].v;
 
     //     }
-    // })
+    // }) -->
 
     function display() {
         document.getElementById("nameDisplay").innerHTML = names.value;
@@ -124,16 +122,6 @@
     <input type="license plate">
 
 
-# Reserve a Car
-Name: <input type="text" name="name" id="nameDisplay"> <br> <br>
-Car: <input type="text" name="activity" id="activity"> <br><br>
-License Plate: <input type="text" name="description" id="license"> <br><br>
-Dates Using: <input type="text" name="description" id="description"><br><br>
-Where are you going:<input type="text" name="going" id="going"><br><br>
-
-
-<button onclick="display()">Reserve</button>
-
 </form>
 
 
@@ -142,6 +130,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 
 </script>
 
+<button onclick="display()">Reserve</button>
 <table id="table">
     <tr>
         <th>Name</th>
