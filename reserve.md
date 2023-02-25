@@ -7,6 +7,7 @@ License Plate: <input type="text" name="description" id="license"> <br><br>
 Dates Using: <input type="text" name="description" id="description"><br><br>
 Where are you going:<input type="text" name="going" id="going"><br><br>
 
+<script>
 <!-- 
     // fetch(FULL_URL)
     // .then(response => response.text())
