@@ -75,7 +75,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("licDisplay").innerHTML = license.value;
         document.getElementById("descDisplay").innerHTML = description.value;
-        document.getElementById("goinDisplay").innerHTML = description.value;
+        document.getElementById("goinDisplay").innerHTML = going.value;
     }
 
     function carlists (){
@@ -121,8 +121,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 
     <input type="car">
     <input type="license plate">
-    
-<button onclick="display()">Reserve</button>
+
 
 </form>
 
@@ -131,6 +130,8 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 
 
 </script>
+
+<button onclick="display()">Reserve</button>
 
 
 <table id="table">
