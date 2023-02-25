@@ -107,7 +107,7 @@ Where are you going:<input type="text" name="going" id="going">
         ];
 
 
-<<form>
+<form>
 
 <div id="Carstitle">
     <div id="Car_name_title"></div>
@@ -131,7 +131,7 @@ Where are you going:<input type="text" name="going" id="going">
     <input type="license plate">
 
 
-</form>>
+</form>
 
 
 <button type="button">Book a Reservation!</button>
