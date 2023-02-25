@@ -121,7 +121,8 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 
     <input type="car">
     <input type="license plate">
-
+    
+<button onclick="display()">Reserve</button>
 
 </form>
 
@@ -131,7 +132,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 
 </script>
 
-<button onclick="display()">Reserve</button>
+
 <table id="table">
     <tr>
         <th>Name</th>
