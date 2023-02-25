@@ -1,7 +1,7 @@
 ![](/images/car.gif)
 
 # Reserve a Car
-Name: <input type="text" name="name" id="names">
+Name: <input type="text" name="name" id="nameDisplay">
 Car: <input type="text" name="activity" id="activity">
 License Plate: <input type="text" name="description" id="license">
 Dates Using: <input type="text" name="description" id="description">
@@ -137,7 +137,6 @@ Where are you going:<input type="text" name="going" id="going">
 <button type="button">Book a Reservation!</button>
 
 
-    }
 </script>
 
 
