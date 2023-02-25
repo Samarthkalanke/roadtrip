@@ -1,11 +1,6 @@
 ![](/images/car.gif)
 
-# Reserve a Car
-Name: <input type="text" name="name" id="nameDisplay">
-Car: <input type="text" name="activity" id="activity">
-License Plate: <input type="text" name="description" id="license">
-Dates Using: <input type="text" name="description" id="description">
-Where are you going:<input type="text" name="going" id="going">
+
 
 
 <script>
@@ -129,6 +124,16 @@ Where are you going:<input type="text" name="going" id="going">
     <input type="license plate">
 
 
+# Reserve a Car
+Name: <input type="text" name="name" id="nameDisplay"> <br>
+Car: <input type="text" name="activity" id="activity"> <br>
+License Plate: <input type="text" name="description" id="license"> <br>
+Dates Using: <input type="text" name="description" id="description"><br>
+Where are you going:<input type="text" name="going" id="going"><br>
+
+
+<button onclick="display()">Reserve</button>
+
 </form>
 
 
@@ -137,12 +142,6 @@ Where are you going:<input type="text" name="going" id="going">
 
 </script>
 
-
-
-
-
-
-<button onclick="display()">Enter</button>
 <table id="table">
     <tr>
         <th>Name</th>
@@ -157,8 +156,8 @@ Where are you going:<input type="text" name="going" id="going">
         <td id="licDisplay"></td>
         <td id="descDisplay"></td>
         <td id="goinDisplay"></td> 
-        </tr>
-        </table>
+    </tr>
+</table>
 
 
 <!-- 
