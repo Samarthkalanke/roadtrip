@@ -71,6 +71,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
     // }) -->
 
     function display() {
+        console.log("comes in display");
         document.getElementById("nameDisplay").innerHTML = names.value;
         document.getElementById("activityDisplay").innerHTML = activity.value;
         document.getElementById("licDisplay").innerHTML = license.value;
