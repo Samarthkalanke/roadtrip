@@ -9,6 +9,7 @@ Where are you going:<input type="text" name="going" id="going"><br><br>
 <html>
 <head>
 <script>
+    window.googleDocCallback = function () { return true; };
       function loadCars() {
         document.getElementById('table').innerHTML = 'Loading...';
         const options = { 
