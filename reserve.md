@@ -125,11 +125,11 @@
 
 
 # Reserve a Car
-Name: <input type="text" name="name" id="nameDisplay"> <br>
-Car: <input type="text" name="activity" id="activity"> <br>
-License Plate: <input type="text" name="description" id="license"> <br>
-Dates Using: <input type="text" name="description" id="description"><br>
-Where are you going:<input type="text" name="going" id="going"><br>
+Name: <input type="text" name="name" id="nameDisplay"> <br> <br>
+Car: <input type="text" name="activity" id="activity"> <br><br>
+License Plate: <input type="text" name="description" id="license"> <br><br>
+Dates Using: <input type="text" name="description" id="description"><br><br>
+Where are you going:<input type="text" name="going" id="going"><br><br>
 
 
 <button onclick="display()">Reserve</button>
