@@ -2,17 +2,6 @@
 
 <html>
   <head>
-<<<<<<< HEAD
-    <script>
-      function loadCars() {
-        document.getElementById('table').innerHTML = 'Loading...';
-        const options = { 
-          method: 'GET', 
-          headers: { 
-            'x-rapidapi-host': 'car-data.p.rapidapi.com', 
-            'x-rapidapi-key':'31c2c9240dmshb093261393c2f95p1ac6bajsn3bf7b947282a' 
-          } 
-=======
     <style>
       table, th, td {
         border: 1px solid black;
@@ -31,7 +20,6 @@
             'x-rapidapi-host': 'car-data.p.rapidapi.com',
             'x-rapidapi-key':'31c2c9240dmshb093261393c2f95p1ac6bajsn3bf7b947282a'
           }
->>>>>>> af4ba1404285654925411d0da7b9ea3121d78289
         };
         fetch('https://car-data.p.rapidapi.com/cars?limit=10&page=0', options)
           .then(res => {
@@ -41,14 +29,6 @@
             return res.json();
           })
           .then(data => {
-<<<<<<< HEAD
-            let output = '<table><tr><th>Make</th><th>Model</th><th>Year</th></tr>';
-            for (let i = 0; i < 10; i++) {
-              output += '<tr>' +
-                '<td>' + data[i].make + '</td>' +
-                '<td>' + data[i].model + '</td>' +
-                '<td>' + data[i].year + '</td>' +
-=======
             let output = '<table><tr><th>View Car</th><th>Make</th><th>Model</th><th>Year</th><th>Review Car</td></tr>';
             for (let i = 0; i < 10; i++) {
               output += '<tr>' +
@@ -57,7 +37,6 @@
                 '<td>' + data[i].model + '</td>' +
                 '<td>' + data[i].year + '</td>' +
                 '<td><a href="/review"><button>Review Car</button></a></td>' +
->>>>>>> af4ba1404285654925411d0da7b9ea3121d78289
                 '</tr>';
             }
             output += '</table>';
