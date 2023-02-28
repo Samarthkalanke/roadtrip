@@ -4,6 +4,7 @@ Car: <input type="text" name="activity" id="activity">
 Write a review : <input type="text" name="write" id="license">
 Stars: <input type="number" name="stars" id="stars">
 
+// this stores the displays on the website 
 <script>
     function display() {
         document.getElementById("nameDisplay").innerHTML = names.value;
@@ -14,7 +15,7 @@ Stars: <input type="number" name="stars" id="stars">
     }
 </script>
 
-<button onclick="display()">Enter</button>
+<button onclick="display()">Enter</button> 
 
 <table id="table">
     <tr>
@@ -28,9 +29,9 @@ Stars: <input type="number" name="stars" id="stars">
         <td id="activityDisplay"></td>
         <td id="licDisplay"></td>
         <td id="starDisplay"></td>
-    </tr>
+    </tr> 
 </table>
-
+// this is the table 
 <html>
   <head>
     <style>
@@ -83,4 +84,5 @@ Stars: <input type="number" name="stars" id="stars">
     <div id="table"></div>
   </body>
 </html>
+// this fetches the api and puts it onto the frontend page 
 
